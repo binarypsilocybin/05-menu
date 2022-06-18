@@ -1,11 +1,10 @@
-import React from "react";
-import "./style.css";
+import React, { useState } from 'react';
+import Menu from './Menu';
+import Categories from './Categories';
+import items from './data';
 
-export default function App() {
-  return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+function App() {
+  return <h2>menu project setup</h2>;
 }
+
+export default App;
